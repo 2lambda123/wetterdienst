@@ -9,6 +9,7 @@ Development
 - Rework dict-like export formats and tests with extensive support for typing
 - Improve radar access
 - Style restapi landing page
+- CI: Add support for Python 3.12
 
 0.65.0 (24.10.2023)
 *******************
