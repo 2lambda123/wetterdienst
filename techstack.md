@@ -21,7 +21,7 @@ Full tech stack [here](/techstack.md)
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1656/vd4gAekh.png' alt='Debian'/> [Debian](https://www.debian.org/) – Operating Systems
 - <img width='25' height='25' src='https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png' alt='Codecov'/> [Codecov](https://codecov.io/) – Code Coverage
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](NEW_URL_HERE) – Continuous Integration NEW_DESCRIPTION_HERE
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration service for automated workflows
 - <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
@@ -104,9 +104,9 @@ Full tech stack [here](/techstack.md)
 <td align='center'>
   <img width='36' height='36' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'>
   <br>
-  <sub><a href="NEW_URL_HERE">GitHub Actions</a></sub>
+  <sub><a href="https://github.com/features/actions">GitHub Actions</a></sub>
   <br>
-  <sub>NEW_DESCRIPTION_HERE</sub>
+  <sub>Continuous Integration service for automated workflows</sub>
   <sub><a href="https://github.com/features/actions">GitHub Actions</a></sub>
   <br>
   <sub></sub>
