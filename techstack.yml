@@ -1,10 +1,30 @@
 repo_name: 2lambda123/wetterdienst
+workflow_config:
+  name: GitHub Actions
+  on:
+    push:
+      branches:
+        - bufr-dataframe
+      paths:
+        - '**.py'
+      tags:
+        - v*.*.*
 report_id: 0bc381c6830066ccedac1d8d42ff1ff3
 version: 0.1
 repo_type: Public
 timestamp: '2024-01-09T06:55:50+00:00'
 requested_by: 2lambda123
 provider: github
+  workflow_config:
+    name: GitHub Actions
+    on:
+      push:
+        branches:
+          - bufr-dataframe
+        paths:
+          - '**.py'
+        tags:
+          - v*.*.*
 branch: bufr-dataframe
 detected_tools_count: 44
 tools:
@@ -17,7 +37,7 @@ tools:
   sub_category: Languages
   image_url: https://img.stackshare.io/service/6727/css.png
   detection_source_url: https://github.com/2lambda123/wetterdienst
-  detection_source: Repo Metadata
+  detection_source: .github/workflows/github_actions.yml
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
     to Perl, Ruby, Scheme, or Java.
@@ -71,6 +91,10 @@ tools:
   last_updated_on: 2023-05-02 22:04:58.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
+  on:
+    push:
+      branches:
+        - bufr-dataframe
   website_url: http://git-scm.com/
   open_source: true
   hosted_saas: false
@@ -87,7 +111,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source_url: https://github.com/2lambda123/wetterdienst/blob/bufr-dataframe/.github/workflows/coverage.yml
+  detection_source_url: https://github.com/2lambda123/wetterdienst/blob/bufr-dataframe/.github/workflows/github_actions.yml
   detection_source: ".github/workflows/coverage.yml"
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-12-22 13:51:16.000000000 Z
