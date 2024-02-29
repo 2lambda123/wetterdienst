@@ -4,11 +4,11 @@
 2lambda123/wetterdienst is built on the following main stack:
 
 - [Python](https://www.python.org) – Languages
-- [Debian](https://www.debian.org/) – Operating Systems
-- [Codecov](https://codecov.io/) – Code Coverage
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- [Codecov](https://codecov.io/) – Code Coverage
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Debian](https://www.debian.org/) – Operating Systems
 
 Full tech stack [here](/techstack.md)
 
@@ -19,11 +19,11 @@ Full tech stack [here](/techstack.md)
 2lambda123/wetterdienst is built on the following main stack:
 
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1656/vd4gAekh.png' alt='Debian'/> [Debian](https://www.debian.org/) – Operating Systems
-- <img width='25' height='25' src='https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png' alt='Codecov'/> [Codecov](https://codecov.io/) – Code Coverage
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png' alt='FastAPI'/> [FastAPI](https://fastapi.tiangolo.com/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png' alt='Codecov'/> [Codecov](https://codecov.io/) – Code Coverage
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/1656/vd4gAekh.png' alt='Debian'/> [Debian](https://www.debian.org/) – Operating Systems
 
 Full tech stack [here](/techstack.md)
 
@@ -34,7 +34,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [2lambda123/wetterdienst](https://github.com/2lambda123/wetterdienst)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|44<br/>Tools used|01/09/24 <br/>Report generated|
+|44<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -140,11 +140,11 @@ Full tech stack [here](/techstack.md)
 |[Pint](https://pypi.org/project/Pint)|v0.17|12/01/22|Andreas Motl |BSD-3-Clause|N/A|
 |[PyPDF2](https://pypi.org/project/PyPDF2)|v1.26|12/01/22|Andreas Motl |Other|[CVE-2023-36810](https://github.com/advisories/GHSA-jrm6-h9cq-8gqw) (Moderate)<br/>[CVE-2022-24859](https://github.com/advisories/GHSA-xcjx-m2pj-8g79) (Moderate)|
 |[aenum](https://pypi.org/project/aenum)|v3.1.12|01/22/22|benjamin |BSD-3-Clause|N/A|
-|[aiohttp](https://pypi.org/project/aiohttp)|v3.9.1|04/19/23|Benjamin Gutzmann |Apache-2.0|N/A|
+|[aiohttp](https://pypi.org/project/aiohttp)|v3.9.1|04/19/23|Benjamin Gutzmann |Apache-2.0|[CVE-2024-23334](https://github.com/advisories/GHSA-5h86-8mv2-jq9f) (Moderate)<br/>[CVE-2024-23829](https://github.com/advisories/GHSA-8qpw-xqxj-h4r2) (Moderate)|
 |[beautifulsoup4](https://pypi.org/project/beautifulsoup4)|v4.12.2|01/04/23|Benjamin Gutzmann |MIT|N/A|
 |[cachetools](https://pypi.org/project/cachetools)|v5.3.0|01/02/23|Benjamin Gutzmann |MIT|N/A|
 |[click](https://pypi.org/project/click)|v8.1.3|03/02/23|Benjamin Gutzmann |BSD-3-Clause|N/A|
-|[dash](https://pypi.org/project/dash)|v2.9.3|03/02/23|Benjamin Gutzmann |MIT|N/A|
+|[dash](https://pypi.org/project/dash)|v2.9.3|03/02/23|Benjamin Gutzmann |MIT|[CVE-2024-21485](https://github.com/advisories/GHSA-547x-748v-vp6p) (Moderate)|
 |[dateparser](https://pypi.org/project/dateparser)|v1.1.8|01/21/23|Andreas Motl |BSD-3-Clause|N/A|
 |[deprecation](https://pypi.org/project/deprecation)|v2.1.0|04/27/23|Benjamin Gutzmann |Apache-2.0|N/A|
 |[diskcache](https://pypi.org/project/diskcache)|v5.6.1|12/01/22|Andreas Motl |Apache-2.0|N/A|
