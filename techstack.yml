@@ -2,7 +2,7 @@ repo_name: 2lambda123/wetterdienst
 report_id: 0bc381c6830066ccedac1d8d42ff1ff3
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-09T06:55:50+00:00'
+timestamp: '2024-02-29T19:16:23+00:00'
 requested_by: 2lambda123
 provider: github
 branch: bufr-dataframe
@@ -184,6 +184,20 @@ tools:
   detection_source: pyproject.toml
   last_updated_by: Benjamin Gutzmann
   last_updated_on: 2023-04-19 22:38:10.000000000 Z
+  vulnerabilities:
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
 - name: beautifulsoup4
   description: Screen-scraping library
   package_url: https://pypi.org/project/beautifulsoup4
@@ -240,6 +254,13 @@ tools:
   detection_source: pyproject.toml
   last_updated_by: Benjamin Gutzmann
   last_updated_on: 2023-03-02 06:29:49.000000000 Z
+  vulnerabilities:
+  - name: Dash apps vulnerable to Cross-site Scripting
+    cve_id: CVE-2024-21485
+    cve_url: https://github.com/advisories/GHSA-547x-748v-vp6p
+    detected_date: Feb 3
+    severity: moderate
+    first_patched: 2.15.0
 - name: dateparser
   description: Date parsing library designed to parse dates from HTML pages
   package_url: https://pypi.org/project/dateparser
