@@ -5835,13 +5835,13 @@ files = [
 
 [[package]]
 name = "timezonefinder"
-version = "6.2.0"
-description = "fast python package for finding the timezone of any point on earth (coordinates) offline"
+version = "6.4.0"
+description = "python package for finding the timezone of any point on earth (coordinates) offline"
 optional = false
-python-versions = ">=3.8,<4"
+python-versions = ">=3.9,<4"
 files = [
-    {file = "timezonefinder-6.2.0-cp38-cp38-manylinux_2_35_x86_64.whl", hash = "sha256:06aa5926ed31687ea9eb00ab53203631f09a78f307285b4929da4ac4e2889240"},
-    {file = "timezonefinder-6.2.0.tar.gz", hash = "sha256:d41fd2650bb4221fae5a61f9c2767158f9727c4aaca95e24da86394feb704220"},
+    {file = "timezonefinder-6.4.0-cp310-cp310-manylinux_2_35_x86_64.whl", hash = "sha256:b4d4cefcdfcd46ffc04858d12cb23b58faca06dad05f68b6b704421be9fc70bc"},
+    {file = "timezonefinder-6.4.0.tar.gz", hash = "sha256:7d82ebbc822d5fa012dbfbde510999afce0d7d1482794838e6c4daf6cc327f97"},
 ]
 
 [package.dependencies]
@@ -5851,7 +5851,7 @@ numpy = ">=1.18,<2"
 setuptools = ">=65.5"
 
 [package.extras]
-numba = ["numba (>=0.56,<1)"]
+numba = ["numba (>=0.59,<1)"]
 pytz = ["pytz (>=2022.7.1)"]
 
 [[package]]
